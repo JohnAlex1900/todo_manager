@@ -25,6 +25,8 @@ export default function Login() {
   const { setIsAuth, isAuth, setIsLoading, loading, setUserName } =
     useContext(AppContext);
 
+  setIsLoading(false);
+
   const handleForm = async (e) => {
     e.preventDefault();
     setIsLoading(true);
