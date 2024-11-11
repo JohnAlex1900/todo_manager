@@ -128,7 +128,7 @@ function Home() {
                 <Th color="white">Title</Th>
                 <Th color="white">Description</Th>
                 <Th color="white">status </Th>
-                <Th color="white">deltete </Th>
+                <Th color="white">delete </Th>
               </Tr>
             </Thead>
 
